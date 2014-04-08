@@ -1,0 +1,10 @@
+name = easyDDB integration of Alma Reminder Service
+core = 7.x
+package = easyDDB
+version = 7.x-0.1
+dependencies[] = alma_reminder_service
+dependencies[] = ctools
+dependencies[] = page_manager
+features[ctools][] = page_manager:pages_default:1
+features[features_api][] = api:1
+features[page_manager_pages][] = reminder_services

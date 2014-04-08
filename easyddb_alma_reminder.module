@@ -1,0 +1,36 @@
+<?php
+/**
+ * @file
+ * Integration of Alma Reminder Service in DDB.
+ */
+
+include_once 'easyddb_alma_reminder.features.inc';
+
+/**
+ * Implements hook_form().
+ */
+function easyddb_alma_reminder_services_form($form, &$form_state) {
+  $form['submit'] = array(
+    '#type' => 'submit',
+    '#value' => t('Save'),
+  );
+
+  alma_reminder_service_form_user_profile_form_alter($form, $form_state);
+
+  return $form;
+}
+
+/**
+ * Implements hook_ding_user_mypage_tab().
+ *
+ * @see ding_user/plugins/content_types/my_page/my_page.inc
+ * @return stdClass
+ *   Ctools block.
+ */
+function easyddb_alma_reminder_ding_user_mypage_tab() {
+  $block = new stdClass();
+  $block->label = t('Reminder services');
+  $block->content = drupal_get_form('easyddb_alma_reminder_services_form');
+
+  return $block;
+}
