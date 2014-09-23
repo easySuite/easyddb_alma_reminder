@@ -102,7 +102,7 @@ function easyddb_alma_reminder_default_page_manager_pages() {
     ),
   );
   $display->cache = array();
-  $display->title = 'Reminder services settings';
+  $display->title = t('Reminder services settings');
   $display->content = array();
   $display->panels = array();
     $pane = new stdClass();

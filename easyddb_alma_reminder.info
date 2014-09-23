@@ -1,4 +1,4 @@
-name = easyDDB integration of Alma Reminder Service
+name = EasyDDB Alma Reminder Service
 core = 7.x
 package = easyDDB
 version = 7.x-0.1
