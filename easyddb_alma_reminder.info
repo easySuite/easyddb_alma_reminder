@@ -1,7 +1,7 @@
 name = easyDDB Alma Reminder Service
 core = 7.x
 package = easyDDB
-version = 7.x-1.0.1
+version = 7.x-2.0.0
 dependencies[] = alma_reminder_service
 dependencies[] = ctools
 dependencies[] = page_manager
