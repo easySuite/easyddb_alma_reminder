@@ -1,6 +1,6 @@
 name = easyDDB Alma Reminder Service
 core = 7.x
-package = easyDDB
+package = easyOPAC
 version = 7.x-2.0.0+easy
 dependencies[] = alma_reminder_service
 dependencies[] = ctools
