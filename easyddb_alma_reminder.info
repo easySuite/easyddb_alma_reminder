@@ -1,4 +1,4 @@
-name = easyDDB Alma Reminder Service
+name = easyOPAC Alma Reminder Service
 core = 7.x
 package = easyOPAC
 version = 7.x-3.0.2

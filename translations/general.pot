@@ -33,10 +33,10 @@ msgid "Reminder services"
 msgstr ""
 
 #: easyddb_alma_reminder.info:0
-msgid "easyDDB Alma Reminder Service"
+msgid "easyOPAC Alma Reminder Service"
 msgstr ""
 
 #: easyddb_alma_reminder.info:0
-msgid "easyDDB"
+msgid "easyOPAC"
 msgstr ""
 

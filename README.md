@@ -1,4 +1,4 @@
-easyDDB Alma Reminder Service
+easyOPAC Alma Reminder Service
 ==========
 
 This feature creates Panel page where user can enable/disable subscriptions.
