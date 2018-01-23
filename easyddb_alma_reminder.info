@@ -1,7 +1,7 @@
 name = easyOPAC Alma Reminder Service
 core = 7.x
 package = easyOPAC
-version = 7.x-3.0.2
+version = 7.x-4.0.2
 dependencies[] = alma_reminder_service
 dependencies[] = ctools
 dependencies[] = page_manager
